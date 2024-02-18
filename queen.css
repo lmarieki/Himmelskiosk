@@ -1,0 +1,125 @@
+html{
+	background-color: lightgrey;
+}
+
+body{
+	font-family: Helvetica, sans-serif;
+	padding: 50px 10%;
+}
+h1{
+	font-size:2cm;
+	color: purple;
+	margin-top: 2em;
+}
+h2{
+	color: purple;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+h3{
+	color: purple;
+	margin-top: 3em;
+}
+p {
+	color: purple;
+	line-height: 2em;
+	max-width: 100%;
+}
+
+div.Hintergrundinformation {
+	margin-top: 5em; 
+	max-width: 100%;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 100%;
+	list-style-type: none;
+	color: purple;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li.active a {
+		color: #fc0fc0; /* Hintergrundfarbe des aktiven Menüpunkts */
+}
+
+
+table {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: small;
+	border-style: groove;
+	border: none;
+	width: 100%; /* Maximale Breite des Bildes auf 100% des Elternelements setzen */
+	
+}
+
+.untere_tabelle{
+	margin-top: 5em;
+}
+
+.Öffnungszeiten_Tabelle{
+	width: 100%;
+}
+
+img{
+	max-width: 100%; /* Maximale Breite des Bildes auf 100% des Elternelements setzen */
+    width: 100%;
+	height: auto; /* Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+    display: block; /* Bilder als Blockelemente rendern */
+	margin: 0em;
+}
+
+th, td {
+	/*width: ;*/
+	text-align: left;
+	/*padding: 0 2% 0 0;*/
+	font-weight: bold;
+	color: purple;
+}
+
+.produktTab th, .produktTab td{
+	width: 32%;
+	padding: 0 2% 0 0;
+}
+
+ul li a{
+	color: purple;
+	text-decoration: none;
+} 
+
+ul li a:hover{
+	color: #fc0fc0; /* Hintergrundfarbe des aktiven Menüpunkts */
+} 
+
+ul li{ 
+	color: purple;
+}
+
+div.Zutaten {
+	margin-top: 5em;
+	width: 200px;
+	border: 2px solid purple; /* Definiere die Rahmenfarbe und Breite */
+  	padding: 10px;
+
+}
+
+a.Klick{
+	color: purple; /* Hintergrundfarbe des aktiven Menüpunkts */
+}
+a.Klick:hover{
+	color: #fc0fc0; /* Hintergrundfarbe des aktiven Menüpunkts */
+}
+
+.produktbilder{
+	width: 100%;
+}
+
+.produktbilder:hover{
+	filter:alpha(opacity=75); 
+	-moz-opacity: 0.75; 
+	opacity: 0.5;
+}
